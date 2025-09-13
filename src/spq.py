@@ -42,3 +42,5 @@ plt.title("Ordonnancement SPQ")
 plt.xlabel("Ordre de service")
 plt.ylabel("Priorité")
 plt.savefig("results/graph.png")
+
+print("✅ Simulation SPQ terminée. Résultats dans /results/")
