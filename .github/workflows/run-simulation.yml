@@ -24,7 +24,7 @@ jobs:
         run: python src/spq.py
 
       - name: Upload results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: spq-results
           path: results/
