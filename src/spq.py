@@ -3,7 +3,7 @@ import random
 import matplotlib.pyplot as plt
 import os
 
-# S'assurer que le dossier results existe
+# Création automatique du dossier results si besoin
 os.makedirs("results", exist_ok=True)
 
 # Créer 3 files de priorité (0 = haute, 2 = basse)
